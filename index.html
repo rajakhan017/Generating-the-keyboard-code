@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keycode Keyboard</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="keyboardApp">
+<div id="keyPressDisplay">
+           Pressed Key: <span id="keyDisplay"></span><br>
+           Key Code: <span id="keyCodeDisplay"></span>
+</div>
+<div id="keyHistoryDisplay">
+           Key History:
+<ul id="keyHistoryList"></ul>
+<button id="clearHistoryButton">Clear History</button>
+</div>
+<div id="textInputBox">
+<input type="text" id="userInput" placeholder="Type something...">
+</div>
+<audio id="keySound" src="key_press_sound.mp3" preload="auto"></audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
